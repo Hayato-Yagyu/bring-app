@@ -7,7 +7,7 @@ import BringList from "./components/BringList"
 export const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/Login" element={<Login />} />
             <Route path="/form" element={<Form />} />
             <Route path="/BringList" element={<BringList />} />
         </Routes>

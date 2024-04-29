@@ -11,9 +11,7 @@ const App = () => {
   };
 
   const navigate = useNavigate()
-  const handleLogin = () => {
-      navigate('/Login')
-  }
+
   const handleBringList = () => {
       navigate('/BringList')
   }
